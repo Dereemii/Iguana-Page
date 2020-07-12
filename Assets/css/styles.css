@@ -1,0 +1,84 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    background-color: #000000;
+    color:white;
+    text-align: center;
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+/* Dadas las proporciones en la maqueta se tuvo que crear un container para que la imagen
+del header quedara como fue solicitado y se viese cortada en la pagina web*/
+}
+
+nav{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+header{
+    height: 727px;
+    background-image: url(../img/bg-header.jpg);
+    margin-top: 73px;
+    width: 1280px;
+    background-size: cover;
+}
+
+.section1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section1 p{
+    display: inline-block;
+    width: 475px;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.section1 img{
+    display: inline-block;
+    margin-left: 50px;
+}
+h2{
+    font-size: 40px;
+}
+
+footer{
+    background-color: #1E1A13;
+    font-size: 20px;
+    padding: 35px
+
+}
+
+.icons-section{
+    background-color: #1E1A13;
+    padding: 50px;
+    margin: 0px
+}
+
+.icon p{
+    font-size: 24px;
+}
+
+.icon  {
+    display: inline-block;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.icon i{
+    font-size: 40px;
+}
+
+.img-section{
+    text-align: center;
+    padding: 20px 0 50px 0px;
+}
+
+.img-section img{
+    padding: 10px;
+    margin-top: 30px;
+}
